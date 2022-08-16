@@ -5,5 +5,5 @@ variable "region" {
 
 variable "bucket" {
   description = "Bucket name"
-  # default     = "tf-demo-seraphine-from-branch" // overrides with TFC variables
+  default     = "tf-demo-seraphine-from-branch" // overrides with TFC variables
 }
